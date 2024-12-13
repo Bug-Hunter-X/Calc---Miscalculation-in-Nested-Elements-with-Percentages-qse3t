@@ -1,0 +1,22 @@
+/* bugSolution.css */
+.container {
+  width: 50%;
+  background-color: lightblue;
+}
+
+.child {
+  width: 50%; /* Corrected: Uses percentage relative to parent */
+  background-color: lightcoral;
+  /* Alternatively, use absolute units if a fixed width is required: */
+  /* width: 200px; */
+}
+/*Example of how to use the same logic using subtraction*/
+.container2 {
+  width: 50%;
+  background-color: lightgreen;
+}
+
+.child2 {
+  width: calc(50% - 10px); /* Corrected: Uses percentage relative to parent */
+  background-color: lightpink;
+}
